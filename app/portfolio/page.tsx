@@ -8,19 +8,19 @@ const portfolioItems = [
     title: "DANUM",
     description: "Innovating the Film Industry - Our Dynamic Approach to Film Production",
     image: "/Rectangle 6.png",
-    link: "#",
+    link: "/portfolio/danum",
   },
   {
     title: "CLCK",
     description: "Custom Web Applications",
     image: "/Rectangle 5.png",
-    link: "#",
+    link: "/portfolio/clck",
   },
   {
     title: "Pathsecure",
     description: "Empowering Secure Digital Transformation",
     image: "/image.png",
-    link: "#",
+    link: "/portfolio/pathsecure",
   },
 ]
 
@@ -54,7 +54,7 @@ const Page = () => {
                   <h3 className="text-2xl font-bold mb-2 text-white">{item.title}</h3>
                   <p className="mb-4 text-white">{item.description}</p>
                   <a
-                    href={"/portfolio/1"}
+                    href={item.link}
                     className="mt-auto flex items-center justify-end text-lg font-semibold text-white"
                   >
                     <span className="mr-2">View Project</span>

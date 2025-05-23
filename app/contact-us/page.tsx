@@ -95,7 +95,7 @@ export default function ContactUs() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 flex-shrink-0" />
-                <p>team@webxcell.com</p>
+                <p>team@DanumFilmworks.com</p>
               </div>
             </div>
           </div>

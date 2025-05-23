@@ -58,7 +58,7 @@ const Footer = () => {
 
       <div className="border-t border-zinc-700 mt-10 pt-6 text-center text-sm text-zinc-100">
         © 2024 Danum Filmworks - All Rights Reserved. Design by:{" "}
-        <a href="#" className="underline">Webxcell Digital</a>
+        <a href="#" className="underline">DanumFilmworks Digital</a>
       </div>
     </footer>
   );

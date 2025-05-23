@@ -1,6 +1,6 @@
 import Link from "next/link"
 import PageHeader from "@/components/page-header"
-import { ArrowRight, ArrowLeft, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+import { ArrowRight, ArrowLeft, Facebook, Twitter, Linkedin, Instagram, Phone } from "lucide-react"
 
 export default function PortfolioDetail({ params }: { params: { slug: string } }) {
   return (
@@ -12,7 +12,7 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
           { label: "Our Portfolio", href: "/portfolio" },
           { label: "Generation of Wealth", href: `/portfolio/${params.slug}` },
         ]}
-        backgroundImage="/placeholder.svg?height=400&width=1200"
+        backgroundImage="/Rectangle 6.png"
       />
 
       <section className="py-16">
@@ -21,7 +21,7 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
             <div className="lg:col-span-2">
               <div className="mb-8">
                 <img
-                  src="/placeholder.svg?height=500&width=800"
+                  src="/image.png"
                   alt="Digital Marketing Project"
                   className="w-full rounded-lg"
                 />
@@ -77,14 +77,14 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=Project+Image+1"
+                    src="/Rectangle 5.png"
                     alt="Project image 1"
                     className="w-full"
                   />
                 </div>
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=Project+Image+2"
+                    src="/Rectangle 6.png"
                     alt="Project image 2"
                     className="w-full"
                   />
@@ -196,5 +196,3 @@ export default function PortfolioDetail({ params }: { params: { slug: string } }
     </div>
   )
 }
-
-import { Phone } from "lucide-react"

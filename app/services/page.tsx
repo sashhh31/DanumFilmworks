@@ -8,8 +8,8 @@ export default function Services() {
     {
       title: "SEO Link Building Optimization",
       description: "Boost Your Rankings with Strategic Link Building",
-      image: "/seo.jpg",
-      icon: "/seo-icon.svg",
+      image: "/laptop.jpg",
+      icon: "/Group.png",
       borderColor: "border-orange-400",
       gradientFrom: "from-orange-400/90",
       gradientTo: "to-orange-600/90",
@@ -17,15 +17,17 @@ export default function Services() {
     {
       title: "Web Development",
       description: "We Can Help You & Routine Audits To Determine An SEO",
-      icon: "/placeholder.svg?height=80&width=80&text=Web",
-      color: "bg-cyan-400",
-      iconColor: "text-cyan-700",
+      image: "/laptop.jpg",
+      icon: "/Group 1.png",
+      borderColor: "border-orange-400",
+      gradientFrom: "from-orange-400/90",
+      gradientTo: "to-orange-600/90",
     },
     {
       title: "Digital Strategy",
       description: "Achieve Business Success with a Data-Driven Approach",
-      image: "/strategy.jpg",
-      icon: "/strategy-icon.svg",
+      image: "/laptop.jpg",
+      icon: "/Group 2.png",
       borderColor: "border-orange-400",
       gradientFrom: "from-orange-400/90",
       gradientTo: "to-orange-600/90",
@@ -33,15 +35,17 @@ export default function Services() {
     {
       title: "Brand Design Identity",
       description: "We Can Help You & Routine Audits To Determine An SEO",
-      icon: "/placeholder.svg?height=80&width=80&text=Brand",
-      color: "bg-blue-100",
-      iconColor: "text-blue-500",
+      image: "/laptop.jpg",
+      icon: "/Group 10.png",
+      borderColor: "border-orange-400",
+      gradientFrom: "from-orange-400/90",
+      gradientTo: "to-orange-600/90",
     },
     {
       title: "Email Marketing",
       description: "Engage Your Audience & Boost Conversions",
-      image: "/email.jpg",
-      icon: "/email-icon.svg",
+      image: "/laptop.jpg",
+      icon: "/Vector 2.png",
       borderColor: "border-orange-400",
       gradientFrom: "from-orange-400/90",
       gradientTo: "to-orange-600/90",
@@ -49,9 +53,11 @@ export default function Services() {
     {
       title: "Video Production",
       description: "We Can Help You & Routine Audits To Determine An SEO",
-      icon: "/placeholder.svg?height=80&width=80&text=Video",
-      color: "bg-blue-100",
-      iconColor: "text-blue-500",
+      image: "/laptop.jpg",
+      icon: "/Group.png",
+      borderColor: "border-orange-400",
+      gradientFrom: "from-orange-400/90",
+      gradientTo: "to-orange-600/90",
     },
   ]
 
@@ -174,7 +180,7 @@ export default function Services() {
             <div>
               <div className="mb-6">
                 <h2 className="text-sm text-gray-500 uppercase mb-2">TESTIMONIALS</h2>
-                <h3 className="text-3xl font-bold mb-4">Webxcell Digital Services Solved Our Business Challenges</h3>
+                <h3 className="text-3xl font-bold mb-4">DanumFilmworks Digital Services Solved Our Business Challenges</h3>
                 <div className="flex">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg

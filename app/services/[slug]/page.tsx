@@ -21,7 +21,7 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
             <div className="lg:col-span-2">
               <div className="mb-8">
                 <img
-                  src="/placeholder.svg?height=500&width=800"
+                  src="/laptop.jpg"
                   alt="Digital Marketing Service"
                   className="w-full rounded-lg"
                 />
@@ -68,14 +68,14 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=Service+Image+1"
+                    src="/laptop.jpg"
                     alt="Service image 1"
                     className="w-full"
                   />
                 </div>
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=Service+Image+2"
+                    src="/laptop.jpg"
                     alt="Service image 2"
                     className="w-full"
                   />
@@ -170,8 +170,8 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
 
               <div className="bg-indigo-600 rounded-lg p-6 text-white">
                 <div className="flex items-center justify-center flex-col">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mb-4">
-                    <Phone className="h-6 w-6 text-indigo-600" />
+                  <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                    <img src="/placeholder-user.jpg" alt="Client" className="w-full h-full object-cover" />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Need Help? Call Here</h3>
                   <p className="text-center">+208-555-0112</p>
