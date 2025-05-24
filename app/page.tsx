@@ -187,7 +187,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="/rectangle 6.png"
+                src="/Rectangle 6.png"
                 alt="Film team working"
                 width={600}
                 height={400}
