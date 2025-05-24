@@ -12,7 +12,7 @@ interface PageHeaderProps {
 export default function PageHeader({
   title,
   breadcrumbs,
-  backgroundImage = "/placeholder.svg?height=400&width=1200",
+  backgroundImage = "/5.jpg",
 }: PageHeaderProps) {
   return (
     <div className="relative bg-cover bg-center py-20" style={{ backgroundImage: `url(${backgroundImage})` }}>

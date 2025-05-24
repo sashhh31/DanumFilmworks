@@ -2,6 +2,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
+import { List } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
@@ -58,7 +60,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-gray-100">
+  <section className="py-16 bg-gray-100 items-center justify-center">
   <div className="container mx-auto px-4">
     <h2 className="text-3xl font-bold text-center mb-4">
       Comprehensive Film Production Services
@@ -68,83 +70,58 @@ export default function Home() {
       Tailored solutions for every stage of your film production journey
     </p>
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {/* Pre-Production */}
-      <div className="relative rounded-lg p-6  mb-40">
-        <Image
-          src="/Group 2.png"
-          alt="Pre-Production Background"
-          width={400}
-          height={500}
-          className=" absolute  z-0 "
-        />
-        <div className="relative p-10 z-10">
-          <div className="bg-white rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <Image src="/placeholder.svg?height=24&width=24" alt="Pre-Production Icon" width={24} height={24} />
-          </div>
-          <h3 className="text-xl font-bold text-white mb-3">Pre-Production</h3>
-          <p className="text-white/80 mb-4">
-            Comprehensive planning, scriptwriting, storyboarding, and preparation for your film project.
-          </p>
-          <Link
-            href="/services/pre-production"
-            className="inline-block text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition-colors"
-          >
-            Learn More
-          </Link>
-        </div>
-      </div>
-
-      {/* Production */}
-      <div className="relative rounded-lg p-6 overflow-hidden">
-        <Image
-          src="/Group 1.png"
-          alt="Production Background"
-          fill
-          className="object-cover absolute inset-0 z-0 "
-        />
-        <div className="relative z-10">
-          <div className="bg-white rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <Image src="/placeholder.svg?height=24&width=24" alt="Production Icon" width={24} height={24} />
-          </div>
-          <h3 className="text-xl font-bold text-white mb-3">Production</h3>
-          <p className="text-white/80 mb-4">
-            Professional filming, direction, cinematography, and on-set management services.
-          </p>
-          <Link
-            href="/services/production"
-            className="inline-block text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-green-600 transition-colors"
-          >
-            Learn More
-          </Link>
-        </div>
-      </div>
-
-      {/* Post-Production */}
-      <div className="relative rounded-lg p-6 overflow-hidden ">
-        <Image
-          src="/Vector 2.png"
-          alt="Post-Production Background"
-          fill
-          className="object-cover absolute inset-0 z-0 "
-        />
-        <div className="relative z-10">
-          <div className="bg-white rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <Image src="/placeholder.svg?height=24&width=24" alt="Post-Production Icon" width={24} height={24} />
-          </div>
-          <h3 className="text-xl font-bold text-white mb-3">Post-Production</h3>
-          <p className="text-white/80 mb-4">
-            Expert editing, color grading, sound design, visual effects, and final delivery.
-          </p>
-          <Link
-            href="/services/post-production"
-            className="inline-block text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-amber-600 transition-colors"
-          >
-            Learn More
-          </Link>
-        </div>
-      </div>
+  <div className="flex gap-16 justify-center items-center">
+    <div className="max-w-96">
+    <img
+    src='./group 2.png'
+    className="w-96 h-96"
+    />
+    <div className="relative justify-center items-center p-10 -top-96">
+      <img src="Group 25.png" className="h-12 w-12 bg-white p-2 mb-3" alt="" />
+      <h3 className="text-xl font-bold text-white mb-4">Pre-Production</h3>
+      <p className="text-white mb-8 text-sm">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae qui possimus sunt,  Quis eos rerum rem reprehenderit tempora aliquam eum obcaecati ratione.
+      </p>
+      <Button className="bg-white text-black text-xs">
+        Learn More
+      </Button>
     </div>
+    </div>
+
+    <div className="max-w-96">
+    <img
+    src='./group 1.png'
+    className="w-96 h-96"
+    />
+    <div className="relative justify-center items-center p-10 -top-96">
+      <img src="Group 26.png" className="h-12 w-12 bg-white p-2 mb-3" alt="" />
+      <h3 className="text-xl font-bold text-white mb-4">Production</h3>
+      <p className="text-white mb-8 text-sm">
+        Our production team brings your vision to life with state-of-the-art equipment and experienced crew members. We ensure every shot captures the essence of your story.
+      </p>
+      <Button className="bg-white text-black text-xs">
+        Learn More
+      </Button>
+    </div>
+    </div>
+
+    <div className="max-w-96">
+    <img
+    src='./Vector 2.png'
+    className="w-96 h-96"
+    />
+    <div className="relative justify-center items-center p-10 -top-96">
+      <img src="Group 27.png" className="h-12 w-12 bg-white p-2 mb-3" alt="" />
+      <h3 className="text-xl font-bold text-white mb-4">Post-Production</h3>
+      <p className="text-white mb-8 text-sm">
+        Transform your raw footage into a masterpiece with our expert editing, color grading, and sound design services. We polish every detail to perfection.
+      </p>
+      <Button className="bg-white text-black text-xs">
+        Learn More
+      </Button>
+    </div>
+    </div>
+  </div>
   </div>
 </section>
 

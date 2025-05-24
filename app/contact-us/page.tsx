@@ -10,7 +10,7 @@ export default function ContactUs() {
           { label: "Home", href: "/" },
           { label: "Contact Us", href: "/contact-us" },
         ]}
-        backgroundImage="/placeholder.svg?height=400&width=1200"
+        backgroundImage="/3.jpg"
       />
 
       <section className="py-16">

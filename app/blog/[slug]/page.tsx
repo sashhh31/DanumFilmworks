@@ -12,7 +12,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
           { label: "Blog", href: "/blog" },
           { label: "The Future of Web Development", href: `/blog/${params.slug}` },
         ]}
-        backgroundImage="/placeholder.svg?height=400&width=1200"
+        backgroundImage="/3.jpg"
       />
 
       <section className="py-16">
@@ -21,7 +21,7 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
             <div className="lg:col-span-2">
               <div className="mb-8">
                 <img
-                  src="/placeholder.svg?height=500&width=800"
+                  src="/2.jpg"
                   alt="Blog Post Image"
                   className="w-full rounded-lg"
                 />
@@ -83,14 +83,14 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=AI+Development"
+                    src="/4.jpg"
                     alt="AI Development"
                     className="w-full"
                   />
                 </div>
                 <div className="bg-gray-100 rounded-lg overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=300&width=400&text=Web+Performance"
+                    src="/5.jpg"
                     alt="Web Performance"
                     className="w-full"
                   />
@@ -122,50 +122,50 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
             </div>
 
             <div className="lg:col-span-1">
-              <div className="bg-indigo-600 rounded-lg p-6 text-white mb-8">
-                <h3 className="text-xl font-semibold mb-4">About the Author</h3>
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-gray-100 mb-8">
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">About the Author</h3>
 
                 <div className="space-y-4">
                   <div className="flex items-center mb-4">
                     <img
-                      src="/placeholder.svg?height=80&width=80&text=JD"
+                      src="/6.jpg"
                       alt="Author"
-                      className="w-20 h-20 rounded-full mr-4"
+                      className="w-20 h-20 rounded-full mr-4 ring-4 ring-indigo-50"
                     />
                     <div>
-                      <h4 className="font-semibold">John Doe</h4>
-                      <p className="text-white/80">Senior Web Developer</p>
+                      <h4 className="font-semibold text-gray-800">John Doe</h4>
+                      <p className="text-gray-500">Senior Web Developer</p>
                     </div>
                   </div>
 
-                  <p className="text-white/80">
+                  <p className="text-gray-600">
                     With over 10 years of experience in web development, John specializes in modern JavaScript frameworks and AI integration in web applications.
                   </p>
 
-                  <div className="pt-4">
-                    <h4 className="text-white/80 mb-2">Follow on:</h4>
+                  <div className="pt-4 border-t border-gray-100">
+                    <h4 className="text-gray-500 text-sm font-medium mb-2">Follow on:</h4>
                     <div className="flex space-x-2">
                       <Link
                         href="#"
-                        className="w-8 h-8 bg-white/20 rounded flex items-center justify-center hover:bg-white/30 transition-colors"
+                        className="w-8 h-8 bg-gray-100 rounded flex items-center justify-center hover:bg-indigo-50 hover:text-indigo-600 text-gray-600 transition-colors"
                       >
                         <Facebook className="h-4 w-4" />
                       </Link>
                       <Link
                         href="#"
-                        className="w-8 h-8 bg-white/20 rounded flex items-center justify-center hover:bg-white/30 transition-colors"
+                        className="w-8 h-8 bg-gray-100 rounded flex items-center justify-center hover:bg-indigo-50 hover:text-indigo-600 text-gray-600 transition-colors"
                       >
                         <Twitter className="h-4 w-4" />
                       </Link>
                       <Link
                         href="#"
-                        className="w-8 h-8 bg-white/20 rounded flex items-center justify-center hover:bg-white/30 transition-colors"
+                        className="w-8 h-8 bg-gray-100 rounded flex items-center justify-center hover:bg-indigo-50 hover:text-indigo-600 text-gray-600 transition-colors"
                       >
                         <Linkedin className="h-4 w-4" />
                       </Link>
                       <Link
                         href="#"
-                        className="w-8 h-8 bg-white/20 rounded flex items-center justify-center hover:bg-white/30 transition-colors"
+                        className="w-8 h-8 bg-gray-100 rounded flex items-center justify-center hover:bg-indigo-50 hover:text-indigo-600 text-gray-600 transition-colors"
                       >
                         <Instagram className="h-4 w-4" />
                       </Link>
@@ -174,20 +174,20 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
                 </div>
               </div>
 
-              <div className="bg-gray-100 rounded-lg p-6">
-                <h3 className="text-xl font-semibold mb-4">Related Posts</h3>
+              <div className="bg-white rounded-lg p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-semibold mb-4 text-gray-800">Related Posts</h3>
                 <div className="space-y-4">
-                  <Link href="#" className="block hover:text-orange-500 transition-colors">
-                    <h4 className="font-medium">The Rise of AI in Web Development</h4>
-                    <p className="text-sm text-gray-600">March 10, 2024</p>
+                  <Link href="#" className="block group">
+                    <h4 className="font-medium text-gray-800 group-hover:text-indigo-600 transition-colors">The Rise of AI in Web Development</h4>
+                    <p className="text-sm text-gray-500">March 10, 2024</p>
                   </Link>
-                  <Link href="#" className="block hover:text-orange-500 transition-colors">
-                    <h4 className="font-medium">Optimizing Web Performance in 2024</h4>
-                    <p className="text-sm text-gray-600">March 5, 2024</p>
+                  <Link href="#" className="block group">
+                    <h4 className="font-medium text-gray-800 group-hover:text-indigo-600 transition-colors">Optimizing Web Performance in 2024</h4>
+                    <p className="text-sm text-gray-500">March 5, 2024</p>
                   </Link>
-                  <Link href="#" className="block hover:text-orange-500 transition-colors">
-                    <h4 className="font-medium">The Future of JavaScript Frameworks</h4>
-                    <p className="text-sm text-gray-600">February 28, 2024</p>
+                  <Link href="#" className="block group">
+                    <h4 className="font-medium text-gray-800 group-hover:text-indigo-600 transition-colors">The Future of JavaScript Frameworks</h4>
+                    <p className="text-sm text-gray-500">February 28, 2024</p>
                   </Link>
                 </div>
               </div>

@@ -8,7 +8,7 @@ export default function NewsletterSignup() {
           <div className="flex items-center mb-6 md:mb-0">
             <div className="relative w-24 h-24 mr-4">
               <img
-                src="/placeholder.svg?height=96&width=96"
+                src="/10.jpg"
                 alt="Customer support"
                 className="rounded-full object-cover"
               />
@@ -30,7 +30,7 @@ export default function NewsletterSignup() {
                 <path d="M3 8H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M8 21V8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              <img src="/placeholder.svg?height=64&width=64" alt="Email icon" className="w-16 h-16 object-contain" />
+              <img src="/1.jpg" alt="Email icon" className="w-16 h-16 object-contain" />
             </div>
           </div>
           <div className="flex-1 max-w-xl mx-4">

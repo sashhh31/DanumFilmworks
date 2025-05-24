@@ -8,109 +8,109 @@ export default function BlogGrid() {
   const posts = [
     {
       id: 1,
-      image: "/placeholder.svg?height=200&width=400&text=Business",
+      image: "/4.jpg",
       category: "Business",
       date: "MARCH 24, 2024",
       title: "Business Strategy For Marketing System",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/5.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 2,
-      image: "/placeholder.svg?height=200&width=400&text=Corporate",
+      image: "/6.jpg",
       category: "Corporate",
       date: "APRIL 16, 2024",
       title: "Why Is Supply Chain Visibility So Important?",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/7.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 3,
-      image: "/placeholder.svg?height=200&width=400&text=Goals",
+      image: "/8.jpg",
       category: "Marketing",
       date: "MARCH 22, 2024",
       title: "Discover A Better Way Of Redefining Company Goals",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/9.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 4,
-      image: "/placeholder.svg?height=200&width=400&text=Business",
+      image: "/10.jpg",
       category: "Business",
       date: "MARCH 24, 2024",
       title: "Business Strategy For Marketing System",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/1.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 5,
-      image: "/placeholder.svg?height=200&width=400&text=Corporate",
+      image: "/2.jpg",
       category: "Corporate",
       date: "APRIL 16, 2024",
       title: "Why Is Supply Chain Visibility So Important?",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/3.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 6,
-      image: "/placeholder.svg?height=200&width=400&text=Goals",
+      image: "/4.jpg",
       category: "Marketing",
       date: "MARCH 22, 2024",
       title: "Discover A Better Way Of Redefining Company Goals",
       author: {
         name: "Devin Lurke",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/5.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 7,
-      image: "/placeholder.svg?height=200&width=400&text=Business",
+      image: "/6.jpg",
       category: "Business",
       date: "MARCH 24, 2024",
       title: "Business Strategy For Marketing System",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/7.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 8,
-      image: "/placeholder.svg?height=200&width=400&text=Corporate",
+      image: "/8.jpg",
       category: "Corporate",
       date: "APRIL 16, 2024",
       title: "Why Is Supply Chain Visibility So Important?",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+        image: "/9.jpg",
         role: "Managing Consultant",
       },
     },
     {
       id: 9,
-      image: "/placeholder.svg?height=200&width=400&text=Goals",
+      image: "/10.jpg",
       category: "Marketing",
       date: "MARCH 22, 2024",
       title: "Discover A Better Way Of Redefining Company Goals",
       author: {
         name: "Dan Urkov",
-        image: "/placeholder.svg?height=40&width=40",
+          image: "/1.jpg",
         role: "Managing Consultant",
       },
     },
@@ -124,7 +124,7 @@ export default function BlogGrid() {
           { label: "Home", href: "/" },
           { label: "Blog Grid", href: "/blog" },
         ]}
-        backgroundImage="/Rectangle 6.png"
+        backgroundImage="/10.jpg"
       />
 
       <section className="py-16 bg-white">
@@ -138,7 +138,7 @@ export default function BlogGrid() {
                 <Link href={`/blog/post-${post.id}`}>
                   <div className="relative h-48 overflow-hidden">
                     <img
-                      src={post.image || "/placeholder.svg"}
+                      src={post.image || "/1.jpg"}
                       alt={post.title}
                       className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                     />
@@ -169,7 +169,7 @@ export default function BlogGrid() {
                     <div className="flex items-center">
                       <div className="w-8 h-8 rounded-full overflow-hidden mr-2">
                         <img
-                          src={post.author.image || "/placeholder.svg"}
+                          src={post.author.image || "/.svg"}
                           alt={post.author.name}
                           className="w-full h-full object-cover"
                         />
