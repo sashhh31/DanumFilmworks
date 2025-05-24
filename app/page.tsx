@@ -50,7 +50,7 @@ export default function Home() {
               <div className="mt-20">
                 <p className="text-xl text-gray-400 text-bold mb-4">Our Partners & Collaborators</p>
                 <div className="flex flex-wrap gap-6 h-full w-full" >
-                 <Image src="./group 10.png" alt="" width={100} height={10} className="w-full h-full"/>
+                 <Image src="./Group 10.png" alt="" width={100} height={10} className="w-full h-full"/>
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function Home() {
   <div className="flex gap-16 justify-center items-center">
     <div className="max-w-96">
     <img
-    src='./group 2.png'
+    src='./Group 2.png'
     className="w-96 h-96"
     />
     <div className="relative justify-center items-center p-10 -top-96">
@@ -90,7 +90,7 @@ export default function Home() {
 
     <div className="max-w-96">
     <img
-    src='./group 1.png'
+    src='./Group 1.png'
     className="w-96 h-96"
     />
     <div className="relative justify-center items-center p-10 -top-96">
