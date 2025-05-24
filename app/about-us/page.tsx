@@ -1,22 +1,17 @@
 import React from 'react'
+import PageHeader from "@/components/page-header"
 
 const page = () => {
   return (
     <div className="bg-white min-h-screen">
-      {/* Page Header */}
-      <section className="relative w-full h-56 flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-200 mb-12 overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-30" />
-        <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-200 rounded-full opacity-30 blur-2xl" />
-        <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-orange-200 rounded-full opacity-30 blur-2xl" />
-        <div className="relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 drop-shadow-lg">About Us</h1>
-          <nav className="flex items-center justify-center gap-2 text-white text-sm">
-            <a href="/" className="hover:underline opacity-80">Home</a>
-            <span className="mx-1">&gt;</span>
-            <span className="font-semibold opacity-100">About Us</span>
-          </nav>
-        </div>
-      </section>
+      <PageHeader
+        title="About Us"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "About Us", href: "/about-us" },
+        ]}
+        backgroundImage="/1.jpg"
+      />
       {/* About Us Hero Section */}
       <section className="w-full py-16 bg-gradient-to-br from-white via-purple-50 to-purple-100 flex flex-col md:flex-row items-center justify-center gap-12 px-4 md:px-12 rounded-3xl max-w-6xl mx-auto shadow-lg mb-16">
         <div className="max-w-xl w-full">
@@ -42,7 +37,7 @@ const page = () => {
         <div className="flex-shrink-0 flex items-center justify-center">
           <div className="relative">
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-200 rounded-full opacity-20 blur-2xl" />
-            <img src="/images/office.jpg" alt="About Us Hero" className="rounded-full w-72 h-72 md:w-80 md:h-80 object-cover shadow-2xl border-8 border-white" />
+            <img src="/1.jpg" alt="About Us Hero" className="rounded-full w-72 h-72 md:w-80 md:h-80 object-cover shadow-2xl border-8 border-white" />
           </div>
         </div>
       </section>
@@ -50,7 +45,7 @@ const page = () => {
       <section className="w-full bg-white py-16 px-4 md:px-0">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center mb-20">
           {/* Why Choose Us */}
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 ml-5">
             <p className="text-sm text-blue-700 font-semibold mb-2 tracking-wide">WHY CHOOSE US</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">Why Choose Us</h2>
             <p className="text-gray-600 mb-8 text-lg">
@@ -72,7 +67,7 @@ const page = () => {
             </div>
             <div className="flex items-center gap-4 mb-2">
               <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center shadow">
-                <img src="/images/people.jpg" alt="Dr. Dan Jatau" className="rounded-full w-10 h-10 object-cover" />
+                <img src="/10.jpg" alt="Dr. Dan Jatau" className="rounded-full w-10 h-10 object-cover" />
               </div>
               <div>
                 <p className="font-semibold">Dr. Dan Jatau</p>
@@ -88,14 +83,14 @@ const page = () => {
           <div className="flex justify-center order-1 md:order-2">
             <div className="relative">
               <div className="absolute -top-6 -right-6 w-24 h-24 bg-purple-200 rounded-full opacity-20 blur-2xl" />
-              <img src="/images/business.jpg" alt="Why Choose Us" className="rounded-full w-72 h-72 md:w-80 md:h-80 object-cover shadow-2xl border-8 border-white" />
+              <img src="/6.jpg" alt="Why Choose Us" className="rounded-full w-72 h-72 md:w-80 md:h-80 object-cover shadow-2xl border-8 border-white" />
             </div>
           </div>
         </div>
         {/* Testimonials */}
         <div className="relative bg-gradient-to-r from-blue-50 to-purple-100 rounded-3xl p-10 md:p-16 overflow-hidden max-w-6xl mx-auto shadow-xl">
-          <div className="absolute left-0 bottom-0 w-1/3 hidden md:block">
-            <img src="/images/people.jpg" alt="Testimonial Person" className="w-64 object-cover rounded-2xl opacity-90" />
+          <div className="absolute justify-start items-center w-full h-full hidden md:block">
+            <img src="/1.jpg" alt="Testimonial Person" className="w-64 h-96 object-cover rounded-2xl opacity-90" />
           </div>
           <div className="md:ml-72">
             <p className="text-sm text-blue-700 font-semibold mb-2 tracking-wide">TESTIMONIALS</p>
@@ -115,7 +110,7 @@ const page = () => {
                   </p>
                   <div className="flex items-center gap-3 mt-auto">
                     <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
-                      <img src="/images/people.jpg" alt="Avatar" className="rounded-full w-10 h-10 object-cover" />
+                      <img src="/4.jpg" alt="Avatar" className="rounded-full w-10 h-10 object-cover" />
                     </div>
                     <div>
                       <p className="font-semibold">Kristin Watson</p>
